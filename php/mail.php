@@ -1,9 +1,9 @@
 <?php
-	$url = $_POST['url'];
+	$toemail = $_POST['tomail'];
 	$message = $_POST['message']; // getting message
-	$to = "umachandrikahm@gmail.com"; // to email adress
+	$to = $toemail; // to email adress
 	$subject = "My subject";
-	$txt = "$url $message";
+	$txt = 	$message;
 	$headers = "From: donotreply@fmt.com" . "\r\n" .
 	"CC: somebodyelse@example.com";
 
