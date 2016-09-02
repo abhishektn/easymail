@@ -1,16 +1,25 @@
 <html>
 	<head>
 		<title>Easy Mail</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
 	</head>
 	<body>
-		<h1>URL:</h1>
-		<form action="http://<--- your domain name --->/easymail/php/mail.php" method="POST">
-			<label for="toemail">Enter To Email:</label><br/>
-			<input type="text" name="toemail" >
+		<h1>Easy Mail</h1>
+		<form action="http://localhost/easymail/php/mail.php" id="form1" method="POST">
+			<input id="toemail" type="hidden" name="toemail" >
 			<label for="message">Enter message:</label><br/>
 			<input type="text" name="message">
-			<input type="submit" value="send Mail">
+			<!-- <input type="submit" value="send Mail"> -->
+			<br>	
+			<img  class="image" name="abhi.nuda@gmail.com" src="http://alphabetletters.org/alphabet-letter-downloads/graffiti-letters/128/alphabet-letter-a.jpg" alt="Smiley face" height="42" width="42">
+			
+			<img class="image" name="prerithmb@gmail.com" src="http://megaicons.net/static/img/icons_sizes/366/1036/128/speech-balloon-orange-p-icon.png" alt="Smiley face" height="42" width="42">
+			
+			<img class="image" name="shravs.brmkl@gmail.com" src="http://icons.iconarchive.com/icons/iconexpo/speech-balloon-orange/128/speech-balloon-orange-s-icon.png" alt="Smiley face" height="42" width="42">
+			
+			<img class="image" name="sahanal.93@gmail.com" src="http://icons.iconarchive.com/icons/iconexpo/speech-balloon-orange/128/speech-balloon-orange-s-icon.png" alt="Smiley face" height="42" width="42">
 		</form>
 	</body>
 </html>
