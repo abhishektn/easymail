@@ -1,0 +1,17 @@
+{
+	"name":"Eazy Mail",
+	"description":"Quicky send emails to your contacts",
+	"version":"2.0",
+	"permissions":["activeTab"],
+
+	"background":{
+	"script":["js/script.js"]
+	},
+
+	"browser_action":{
+		"default_title":"Quick Mail",
+		"default_icon":"images/mail.png",
+		"default_popup":"sample.html"
+	},
+	"manifest_version": 2
+}
