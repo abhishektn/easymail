@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 	$toemail = $_POST['toemail'];
+=======
+	$toemail = $_POST['tomail'];
+>>>>>>> master
 	$message = $_POST['message']; // getting message
 	$to = $toemail; // to email adress
 	$subject = "My subject";
